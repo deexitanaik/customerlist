@@ -1,0 +1,40 @@
+.box{
+    height: 500px;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(238, 234, 234);
+    box-shadow: 0 0 0 0.5px rgb(208, 204, 204);
+}
+
+.head{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    height: 40px;
+    max-width: 800px;
+    background-color: rgb(238, 234, 234);
+    box-shadow: 0 0 0 0.5px rgb(208, 204, 204);
+    
+}
+
+.dental{
+    
+    align-items: center; 
+    justify-content: center;  
+    padding:2%;
+    
+}
+    
+.listcust{
+   
+    padding-left: -20px;
+   
+    /* position: relative; */
+    
+  }
+
+.arrow{
+    padding: 50px 30px;
+   
+}
+
