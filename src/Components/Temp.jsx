@@ -74,7 +74,16 @@ export const Temp = () => {
         </div>
       </div>
     </div>
-        <div className="box2"></div>
+        <div className="box2">
+          <div className="main2">Appointment Schedule</div>
+          <div className="sub12">12 Oct 2023</div>
+          <div className="box11">Prosthentic Thooth Fabrician
+            Drg.Wade Warren
+          </div>
+          <div className="box12"></div>
+          <div className="box13"></div>
+
+        </div>
        </div>
       </div>
       /* // <div className="box">

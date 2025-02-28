@@ -102,19 +102,7 @@
 
 
 
-.box2{
-    border: 1px solid black;
-    display: flex;
-    direction: column;
-    height: 380px;
-    width: 290px;
-    margin-top: 10px;
-    border-radius: 10px;
-    /* margin-left: 5px;
-    margin-right: 5px; */
-  
-    
-}
+
 
 .profile-pic{
     margin-top: 30px;
@@ -132,12 +120,8 @@
     margin-left: 190px;
     margin-top: -18px;
 
-    
-   
-   
-  
-   
 }
+
 .logo{
     margin-left: 60px;
     margin-top: -3px;
@@ -155,8 +139,8 @@
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 380px; /* Your height */
-    width: 290px; /* Your width */
+    height: 380px; 
+    width: 290px; 
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px; 
@@ -220,20 +204,48 @@
     color: #555;
     cursor: pointer;
 }
-
-
-
-
-
-/* x1{
+.box2{
     border: 1px solid black;
     display: flex;
-    direction: column;
-    height: 380px;
-    width: 290px;
+    flex-direction: column;
+    height: 380px; 
+    width: 290px; 
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px; 
     border-radius: 10px;
-    gap:2px;
-    flex-direction: column; */
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.main2{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Inter',sans-serif,;
+
+}
+
+
+.sub12{
+    padding: 2px;
+}
+
+.box11{
+    border: 1px solid balck;
+
+}
+
+.box12{
+
+}
+
+.box13{
+
+}
+
+
+
