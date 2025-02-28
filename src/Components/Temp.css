@@ -89,28 +89,18 @@
 .head-box{
     border: 1px solid black;
     height: 100px;
-    width: 580px;
+    width: 600px;
 
 }
 
 .boxes{
     display: flex;
     border: 1px solid black;
-    width: 590px;
+    width: 600px;
     height: 400px;
 }
 
-.box1{
-    border: 1px solid black;
-    display: flex;
-    direction: column;
-    height: 380px;
-    width: 290px;
-    margin-top: 10px;
-     margin-left: 5px;
-    margin-right: 5px; 
-    border-radius: 10px;
-}
+
 
 .box2{
     border: 1px solid black;
@@ -129,12 +119,13 @@
 .profile-pic{
     margin-top: 30px;
     margin-left: 20px;
-    position: fixed;
+   
 }
 
 .name{
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: -35px;
+  
 }
 
 .btn{
@@ -159,3 +150,90 @@
     font-size: 11px;
 }
 
+
+.box1 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 380px; /* Your height */
+    width: 290px; /* Your width */
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* padding: 15px; */
+}
+
+.main {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Inter',sans-serif,;
+   
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.icon {
+    font-size: 20px;
+    color: #555;
+    margin-top: -23px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+.label {
+    font-size: 12px;
+    color: gray;
+  
+}
+
+.value {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+
+
+
+/* x1{
+    border: 1px solid black;
+    display: flex;
+    direction: column;
+    height: 380px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    border-radius: 10px;
+    gap:2px;
+    flex-direction: column; */

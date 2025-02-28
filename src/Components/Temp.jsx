@@ -1,7 +1,12 @@
 import React from "react";
 import "./Temp.css";
 import { RiAnchorFill } from "react-icons/ri";
-
+import { CgGenderFemale } from "react-icons/cg";
+import { LiaBirthdayCakeSolid } from "react-icons/lia";
+import { FiPhone } from "react-icons/fi";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { IoGitNetworkSharp } from "react-icons/io5";
+import { FaGoogle, FaFacebookMessenger, FaWhatsapp } from "react-icons/fa";
 // import { FaTooth } from "react-icons/fa";
 // import { PiGreaterThan } from "react-icons/pi";
 
@@ -23,18 +28,52 @@ export const Temp = () => {
         </div>
         <div className="boxes">
         <div className="box1">
-          <div className="main">Basic Informational</div>
-          
-          <div className="gender">Gender</div>
-          <h5>Male</h5>
-          <div className="gender">Birthday</div>
-          <h5>12 Agust 2001</h5>
-          <div className="gender">Phone Number</div>
-          <h5>+62 837 356 343 23</h5>
-          <div className="gender">Email</div>
-          <h5>jeromebellingham93@gmail.com</h5>
-          <div className="gender">Sources</div>
+      <div className="main">Basic Informational</div>
+
+      <div className="info-row">
+        <CgGenderFemale className="icon" />
+        <div className="text-container">
+          <div className="label">Gender</div>
+          <div className="value">Male</div>
         </div>
+      </div>
+
+      <div className="info-row">
+        <LiaBirthdayCakeSolid className="icon" />
+        <div className="text-container">
+          <div className="label">Birthday</div>
+          <div className="value">12 August 2001</div>
+        </div>
+      </div>
+
+      <div className="info-row">
+        <FiPhone className="icon" />
+        <div className="text-container">
+          <div className="label">Phone Number</div>
+          <div className="value">+62 837 356 343 23</div>
+        </div>
+      </div>
+
+      <div className="info-row">
+        <MdOutlineMailOutline className="icon" />
+        <div className="text-container">
+          <div className="label">Email</div>
+          <div className="value">jeromebellingham93@mail.com</div>
+        </div>
+      </div>
+
+      <div className="info-row">
+        <IoGitNetworkSharp className="icon" />
+        <div className="text-container">
+          <div className="label">Sources</div>
+          <div className="social-icons">
+            <FaFacebookMessenger className="social-icon" />
+            <FaGoogle className="social-icon" />
+            <FaWhatsapp className="social-icon" />
+          </div>
+        </div>
+      </div>
+    </div>
         <div className="box2"></div>
        </div>
       </div>
