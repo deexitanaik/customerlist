@@ -6,7 +6,7 @@ import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoGitNetworkSharp } from "react-icons/io5";
-import { FaGoogle, FaFacebookMessenger, FaWhatsapp } from "react-icons/fa";
+import { FaGoogle, FaFacebookMessenger, FaWhatsapp,FaCircle } from "react-icons/fa";
 // import { FaTooth } from "react-icons/fa";
 // import { PiGreaterThan } from "react-icons/pi";
 
@@ -74,81 +74,60 @@ export const Temp = () => {
         </div>
       </div>
     </div>
-        <div className="box2">
-          <div className="main2">Appointment Schedule</div>
-          <div className="sub12">12 Oct 2023</div>
-          <div className="box11">Prosthentic Thooth Fabrician
-            Drg.Wade Warren
+    <div className="box2">
+      <div className="main2">Appointment Schedule</div>
+
+      <div className="timeline">
+     
+        <div className="appointment">
+          <div className="date1">
+            <FaCircle className="circle active" />
+            <span>12 Oct 2023</span>
           </div>
-          <div className="box12"></div>
-          <div className="box13"></div>
-
+          <div className="appointment-box">
+            <div className="title">Prosthetic Tooth Fabrication</div>
+            <div className="doctor">
+              <span className="dot blue"></span> Drg. Wade Warren
+            </div>
+          </div>
         </div>
-       </div>
+
+        
+        <div className="appointment">
+          <div className="date2">
+            <FaCircle className="circle active" />
+            <span>12 Sep 2023</span>
+          </div>
+          <div className="appointment-box">
+            <div className="title">Post-Surgical Care</div>
+            <div className="doctor">
+              <span className="dot red"></span> Drg. Marvin McKinney
+            </div>
+          </div>
+        </div>
+
+       
+        <div className="appointment">
+          <div className="date3">
+            <FaCircle className="circle active" />
+            <span>12 Aug 2023</span>
+          </div>
+          <div className="appointment-box">
+            <div className="title">Implant Placement</div>
+            <div className="doctor">
+              <span className="dot green"></span> Drg. Floyd Miles
+            </div>
+          </div>
+        </div>
+
+       
+        
+          </div>
+        </div>
       </div>
-      /* // <div className="box">
-      //   <div className="head">
-      //   <div className="profile-pic">
-      //   <img src="https://i.pinimg.com/474x/a2/de/27/a2de27bbe8182ed687fb59b7590663a6.jpg" alt="Profile" width="30" height="30" style={{ borderRadius: "50%" }}  />
-      //   </div>
-      //   <div className="name"><span>Jerome Bellingham</span>
-      //     <button>MEMBER</button> 
-          
-         
-      //     </div>
-      //   <span className="ship"><RiAnchorFill /> Joined Since : 12 March 2023</span>
-
-      // </div>
-
-      // <div className="mini-box1">
-      //   <div className="main-hedding">Basic Information</div>
-      //   <div className="sub">
-      //     <a className="gender">
-      //       <span>Male</span>
-      //     </a>
-      //     <a className="gender">
-      //       <span>Birtday</span>
-      //     </a>
-      //     <a className="gender">
-      //       <span>+62 837 356 343 23</span>
-      //     </a>
-      //     <a className="gender">
-      //       <span>jeromebellingham93@gmail.com</span>
-      //     </a>
-      //     <a className="gender"></a>
-
-      //   </div>
-      //   <div className="mini-box2">
-      //     <div className="sub2">
-            
-      //     </div>
-      //   </div>
-      // </div>
-      // </div>
-      // <div className="box">
-      //   <div className="head">
-      //   <a className="dental"><FaTooth size={15} color="blue" /></a>
-
-        
-      //   <div className="listcust"></div>
-      //   <span>List Customer</span>
-      //   <div className="arrow"><PiGreaterThan /></div>
-      //   <div className="name"></div>
-      //   <span>Jerome Bellingham</span>
-      //   </div>
-
-      //   <div className="side-bar">
-      //     <a className="widdels"></a>
-      //     <a className="paste"></a>
-      //     <a className="person"></a>
-      //     <a className="calender"></a>
-      //     <a className="shield"></a>
-      //     <a className="cut"></a>
-      //     <a className="question"></a>
-      //     <a className="setting"></a>
-      //   </div>
-        
-      //   </div> */
+      </div>
+     
+     
       
 
 
